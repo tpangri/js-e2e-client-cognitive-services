@@ -1,6 +1,6 @@
 // ./src/DefaultImages.js
 
-const describeURL = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/celebrities.jpg';
+/*const describeURL = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/celebrities.jpg';
 const categoryURLImage = 'https://moderatorsampleimages.blob.core.windows.net/samples/sample16.png';
 const tagsURL = 'https://moderatorsampleimages.blob.core.windows.net/samples/sample16.png';
 const objectURL = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-node-sdk-samples/master/Data/image.jpg';
@@ -14,10 +14,11 @@ const colorURLImage = 'https://raw.githubusercontent.com/Azure-Samples/cognitive
 // eslint-disable-next-line
 const mixedMultiPagePDFURL = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/MultiPageHandwrittenForm.pdf';
 const domainURLImage = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/landmark.jpg';
-const typeURLImage = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-python-sdk-samples/master/samples/vision/images/make_things_happen.jpg';
+const typeURLImage = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-python-sdk-samples/master/samples/vision/images/make_things_happen.jpg';*/
+const azureStoragePic = 'https://dasistmeinstorageac.blob.core.windows.net/pictures/le_sauze_du_lac_mountains_island.jpg';
 
 const DefaultImages = [
-    describeURL,
+    /*describeURL,
     categoryURLImage,
     tagsURL,
     objectURL,
@@ -29,7 +30,8 @@ const DefaultImages = [
     typeURLImage,
     printedTextSampleURL,
     multiLingualTextURL,
-    //mixedMultiPagePDFURL
+    //mixedMultiPagePDFURL*/
+    azureStoragePic
 ];
 
 const RandomImageUrl = () => {

@@ -15,7 +15,7 @@ const colorURLImage = 'https://raw.githubusercontent.com/Azure-Samples/cognitive
 const mixedMultiPagePDFURL = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/MultiPageHandwrittenForm.pdf';
 const domainURLImage = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/landmark.jpg';
 const typeURLImage = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-python-sdk-samples/master/samples/vision/images/make_things_happen.jpg';*/
-const azureStoragePic = 'https://dasistmeinstorageac.blob.core.windows.net/pictures/active_check.jpg';
+const azureStoragePic = 'https://dasistmeinstorageac.blob.core.windows.net/pictures/new/active_check.jpg';
 
 const DefaultImages = [
     /*describeURL,
@@ -26,7 +26,7 @@ const DefaultImages = [
     facesImageURL,
     adultURLImage,
     colorURLImage,
-    domainURLImage,
+    domainURLImage,/
     typeURLImage,
     printedTextSampleURL,
     multiLingualTextURL,
